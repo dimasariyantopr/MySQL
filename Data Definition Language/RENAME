@@ -1,0 +1,5 @@
+RENAME merupakan sebuah perintah yang digunakan untuk mengubah nama tabel
+
+1. Mengubah tabel dengan nama "siswa" menjadi "siswa_baru"
+
+RENAME TABLE siswa TO siswa_baru;
