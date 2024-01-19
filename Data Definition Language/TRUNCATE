@@ -1,0 +1,4 @@
+TRUNCATE merupakan sebuah perintah yang digunakan untuk menghapus semua data yang ada di dalam sebuah tabel tanpa menghapus tabel itu sendiri
+
+1. Menghapus semua data pada tabel dengan nama "siswa"
+TRUNCATE TABLE siswa;
