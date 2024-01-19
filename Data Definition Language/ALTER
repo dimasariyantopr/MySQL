@@ -1,0 +1,14 @@
+ALTER merupakan sebuah perintah yang digunakan untuk mengubah struktur table.
+Perintah ALTER meliputi ADD (menambah), MODIFY (mengubah), dan DRROP (menghapus) kolom pada tabel
+
+1. ADD --> Menambah kolom "umur" pada tabel "siswa"
+
+ALTER TABLE siswa ADD umur INT(2);
+
+2. MODIFY --> Mengubah tipe data pada kolom "nama" menjadi "text" pada tabel "siswa"
+
+ALTER TABLE siswa MODIFY nama TEXT;
+
+3. DROP --> Menghapus kolom "umur" pada tabel "siswa"
+
+ALTER TABLE siswa DROP umur;
