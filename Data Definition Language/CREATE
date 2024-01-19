@@ -1,10 +1,10 @@
-CREATE merupakan perintah yang digunakan untuk membuat database dan tabel//
+CREATE merupakan perintah yang digunakan untuk membuat database dan tabel
 
 1. Membuat database dengan nama "sekolah"
 
 CREATE DATABASE sekolah;
 
-2. Membuat tabel dengan nama "siswa" dengan kolom "nis", "nama", "kelas" dan "nis" sebagai primary key//
+2. Membuat tabel dengan nama "siswa" dengan kolom "nis", "nama", "kelas" dan "nis" sebagai primary key
   - Kolom nis bertipe data "Integer" dan maksimal berisi "10" karakter
   - Kolom "nama" bertipe data "Varchar" dan maksimal berisi "50" karakter
   - Kolom "kelas" bertipe data "Varchar" dan maksimal berisi "10" karakter
