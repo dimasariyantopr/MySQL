@@ -1,0 +1,9 @@
+DROP merupakan perintah yang digunakan untuk menghapus database maupun tabel
+
+1. Menghapus table dengan nama "siswa"
+  
+DROP TABLE siswa;
+
+2. Menghapus database dengan nama "sekolah"
+
+  DROP DATABASE sekolah;
