@@ -1,5 +1,0 @@
-//Membuat database dengan nama "sekolah"//
-CREATE DATABASE sekolah;
-
-//Membuat tabel dengan nama "siswa" dengan kolom "nis","nama","kelas" dan "nis" sebagai primary key//
-CREATE TABLE siswa (nis INT(10), nama VARCHAR(50), kelas VARCHAR(10), PRIMARY KEY (nis));
