@@ -1,0 +1,8 @@
+UPDATE merupakan suatu perintah yang berfungsi untuk memperbarui data pada sebuah table berdasarkan kondisi tertentu
+
+Memperbarui data pada tabel siswa:
+- Mengubah nama menjadi Ariyanto
+- Mengubah kelas menjadi X RPL B
+- Dengan kondisi data yang akan dibuah memiliki nilai nis 1
+
+UPDATE siswa SET nama = "Ariyanto", kelas = "X RPL B"  WHERE nis = 1;
