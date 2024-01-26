@@ -1,0 +1,7 @@
+Data Manipulation Language (DDL) merupakan kumpulan perintah yang berfungsi untuk melakukan manipulasi data pada sebuah database.
+Kumpulan perintah tersebut di antaranya adalah INSERT, SELECT, UPDATE, DELETE
+
+- INSERT digunakan untuk memasukan data ke dalam table
+- SELECT digunakan untuk menampilkan data pada sebuah table
+- UPDATE digunakan untuk memperbarui data pada sebuah table
+- DELETE digunakan untuk menghapus data dari sebuah table
