@@ -1,0 +1,9 @@
+INSERT merupakan perintah yang digunakan untuk memasukan data ke dalam tabel
+
+Tabel "siswa" dengan kolom (nis, nama, kelas) akan dimasukan data dengan nilai atau isi (1, Dimas, X RPLA)
+- Kolom "nis" akan diisi dengan nilai "1"
+- Kolom "nama" akan diisi dengan nilai "Dimas"
+- Kolom "kelas" akan diisi dengan nilai "X RPL A"
+- Untuk menmasukan nilai dengan tipe data "VARCHAR", maka harus disertai dengan tadan kutip(" ")
+
+INSERT INTO siswa (nis, nama, kelas) VALUES (1, "Dimas", "X RPL A");
