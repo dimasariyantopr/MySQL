@@ -1,0 +1,12 @@
+DELETE merupakan sebuah perintah yang digunakan untuk menghapus data pada sebuah table dengan kondisi tertentu
+- Contoh sintaks: DELETE FROM nama_table WHERE kondisi
+- Kondisi biasanya dituliskan dengan nama_kolom = data, misalnya nis = 1, nama = "Ariyanto", atau kelas = "X RPL B"
+
+1. Menghapus data dari table siswa dengan kondisi memiliki nis 1
+DELETE FROM siswa WHERE nis = 1;
+
+2. Menghapus data dari table siswa dengan kondisi bernama Ariyanto
+DELETE FROM siswa WHERE nama = "Ariyanto";
+
+3. Menghapus data dari table siswa dengan kondisi berada di kelas X RPL B
+DELETE FROM siswa WHERE kelas = "X RPL B";
