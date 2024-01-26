@@ -1,4 +1,5 @@
 UPDATE merupakan suatu perintah yang berfungsi untuk memperbarui data pada sebuah table berdasarkan kondisi tertentu
+- Contoh penulisan sintaks: UPDATE nama_table SET nama_kolom = "data_baru" WHERE kondisi;
 
 Memperbarui data pada tabel siswa:
 - Mengubah nama menjadi Ariyanto
@@ -6,3 +7,7 @@ Memperbarui data pada tabel siswa:
 - Dengan kondisi data yang akan dibuah memiliki nilai nis 1
 
 UPDATE siswa SET nama = "Ariyanto", kelas = "X RPL B"  WHERE nis = 1;
+
+*NOTE:
+- Penggunaa kondisi WHERE bisa disesuaikan dengan keperluan pencarian data
+- Selalu menggunakan tanda kutip (" ") dalam menuliskan data bertipe "VARCHAR"
