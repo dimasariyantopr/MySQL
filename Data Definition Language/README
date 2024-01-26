@@ -1,0 +1,8 @@
+Data Definition Language (DDL) merupakan kumpulan perintah yang berfungsi untuk mendefinisikan struktur dari sebuah database.
+Kumpulan perintah tersebut di antaranya adalah CREATE, RENAME, ALTER, TRUNCATE, DROP.
+
+- CREATE digunakan untuk membuat sebuah database dan table
+- RENAME digunakan untuk mengubah nama table
+- ALTER digunakan untuk mengubah struktur table
+- TRUNCATE digunakan untuk menghapus semua data pada sebuah table tanpa menghapus table itu sendiri
+- DROP digunakan untuk menghapus table dan database
