@@ -1,0 +1,23 @@
+SELECT merupakan sebuah perintah yang digunakan untuk menampilkan data pada sebuah tabel. 
+Perintah ini juga bisa digunakan untuk menampilkan sebuah ada dengan kondisi tertentu. 
+
+1. Menampilkan semua data pada tabel siswa
+
+SELECT*FROM siswa;
+
+2. Menampilkan data pada tabel siswa yang berada di kelas X RPL A
+
+SELECT*FROM siswa WHERE kelas = "X RPL A";
+
+3. Menampilkan data pada tabel siswa yang bernama Dimas
+
+SELECT*FROM siswa WHERE nama = "Dimas";
+
+4. Menampilkan semua data kelas yang ada di table siswa
+SELECT nama FROM siswa;
+
+*NOTE:
+- Penggunaa kondisi WHERE bisa disesuaikan dengan keperluan pencarian data
+- Tanda bintang (*) setelah SELECT befungsi untuk memilih semua kolom
+- Selalu menggunakan tanda kutip (" ") dalam menuliskan data bertipe "VARCHAR"
+- Apabila data yang dicari tidak ditemukan, maka akan muncul hasi: "Empty set"
