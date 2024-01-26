@@ -1,16 +1,15 @@
 SELECT merupakan sebuah perintah yang digunakan untuk menampilkan data pada sebuah tabel. 
-Perintah ini juga bisa digunakan untuk menampilkan sebuah ada dengan kondisi tertentu. 
+- Perintah ini juga bisa digunakan untuk menampilkan sebuah ada dengan kondisi tertentu. 
+- Contoh penulisan sintaks: SELECT nama_kolom FROM nama_table WHERE kondisi;
+- Apabila ingin menampilkan seluruh data tabel pada sintaks ditulis: SELECT * FROM nama_table;
 
 1. Menampilkan semua data pada tabel siswa
-
 SELECT*FROM siswa;
 
 2. Menampilkan data pada tabel siswa yang berada di kelas X RPL A
-
 SELECT*FROM siswa WHERE kelas = "X RPL A";
 
 3. Menampilkan data pada tabel siswa yang bernama Dimas
-
 SELECT*FROM siswa WHERE nama = "Dimas";
 
 4. Menampilkan semua data kelas yang ada di table siswa
